@@ -17,8 +17,10 @@ http://localhost/invoices/example/random
 http://localhost/invoices/example/advanced
 http://localhost/invoices/example/alternatives
 ```
+
+See result [Invoice_AA_00001.pdf](docs/examples/invoice_AA_00001.pdf).
+
 See result [Roosevelt Lloyd Ashley Medina.pdf](docs/examples/Roosevelt%20Lloyd%20Ashley%20Medina.pdf).
-See result [Secure Code Ashley Medina.pdf](docs/examples/Secure%20Lloyd%20Ashley%20Medina.pdf).
 
 ## Advanced Usage Localized to Dutch
 
@@ -94,5 +96,4 @@ use LaravelDaily\Invoices\Classes\InvoiceItem;
         // And return invoice itself to browser or have a different view
         return $invoice->stream();
 ```
-
-See result [Secure Code Ashley Medina.pdf](docs/Secure%20Lloyd%20Ashley%20Medina%20(nl).pdf).
+See result [Secure Code Ashley Medina.pdf](docs/Secure%20Code%20Ashley%20Medina%20(nl).pdf).
